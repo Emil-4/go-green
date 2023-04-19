@@ -1,0 +1,93 @@
+
+.class1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.0%;
+    border: 3px solid rgb(17, 17, 17);
+    background-size: cover;
+    background: linear-gradient(to right, rgb(35, 138, 35), rgb(186, 189, 53), rgb(23, 189, 125));
+}
+.class1 h1{
+    text-shadow: 2px 2px 2px  rgb(41, 21, 150);
+}
+.class1 a:hover{
+    color: rgb(55, 56, 55);
+}
+.class1 option{
+    background-color: teal;
+}
+.class1 button{
+    
+    background-color: black;
+
+}
+.class1 button:hover{
+    color: rgb(235, 236, 235);
+}
+.class2{
+    display: inline;
+    justify-content: space-around;
+    grid-column: auto;
+    background-color: aliceblue;
+    background-repeat: space;
+    height: 300px;
+    width: 300px;
+    border: 4px solid red;
+    background: linear-gradient( to right, red, pink, blue);
+    background-image: url(./Downloads/steffi-pereira-Pv_Mut-lvWg-unsplash\(1\).jpg);
+    
+}
+.class2 h2{
+    background-image: url(./Downloads/steffi-pereira-Pv_Mut-lvWg-unsplash\(1\).jpg);
+
+}
+.class2:hover{
+    transition: 0.5s;
+    transform: scale(.5);
+}
+h2{
+    text-align: right;
+    justify-content: right;
+}
+.class4{
+    padding-left: 20px;
+    text-align: center;
+}
+.class4 a:hover{
+    color: red;
+}
+.class4 a::backdrop{
+    color: yellow;
+}
+footer{
+    border: 2px solid teal;
+    background-color: cadetblue;
+}
+.class5{
+    display: flex;
+    grid-column: auto;
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    border: 4px solid red;
+    background: linear-gradient( to right, red, pink, blue);
+}
+.class6{
+    display: flex;
+    grid-column: auto;
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    border: 4px solid red;
+    background: linear-gradient( to right, red, pink, blue);
+}
+.class7{
+    display: flex;
+    grid-column: auto;
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+    border: 4px solid red;
+    background: linear-gradient( to right, red, pink, blue);
+}
